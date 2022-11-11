@@ -8,8 +8,6 @@ impl Rectangle {
     fn area(&self) -> u32 {
         self.width * self.length
         
-
-        
     }    
 }
 
