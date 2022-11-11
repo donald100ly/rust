@@ -1,4 +1,5 @@
 use std::collections::HashMap;
+use demo::back_of_house::eat_at_root;
 
 #[derive(Debug)]
 struct Rectangle{
@@ -31,6 +32,7 @@ fn main() {
     println!("{}",ret.area());
     println!("{:#?}",ret);   
     printcol();
+    eat_at_root();
 
 }
 
